@@ -28,7 +28,14 @@ h1 {
 }
 
 .board-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 85px;
   height: 85px;
+  padding: 0;
+  text-align: center;
   border: 1px black solid;
+  font-size: 85px;
 }
+
